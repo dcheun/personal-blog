@@ -20,36 +20,87 @@
         </ul>
       </div>
     </nav>
-    <div class="post-title">
-      <h1>Peru</h1>
-      <p class="date">Published: Apr 19, 2019</p>
-    </div>
-    <div class="posts post-body">
-      <img class="img-left" src="/img/machu-picchu.jpg" alt="machu-picchu">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Assumenda, esse soluta autem animi atque est optio
-        accusamus deleniti voluptatum iste vel nulla quod asperiores dicta. Fugiat iusto adipisci reprehenderit minima
-        autem accusantium quasi tenetur enim numquam!</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam suscipit mollitia tenetur voluptatem facilis
-        amet. Dolore praesentium optio ullam perspiciatis.</p>
-      <img class="img-right" src="/img/coca-tea.jpg" alt="coca-tea">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda nihil voluptates, id enim non quaerat
-        necessitatibus ullam consequuntur libero sint unde! Ad animi possimus quis corrupti, quo officiis qui eum neque
-        dolores nesciunt dignissimos veritatis rem. Soluta neque veniam amet culpa. Totam.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati consequuntur placeat alias at cum vero
-        modi. Nam corporis libero odio neque temporibus consequuntur, ea architecto explicabo voluptates, sit tenetur
-        dolor ea commodi velit dicta nobis mollitia. Animi recusandae et blanditiis quis quibusdam quos perspiciatis
-        exercitationem odit vitae. Distinctio adipisci eveniet vel ratione facilis nemo vero.</p>
-      <img class="img-left" src="/img/ceviche.jpg" alt="ceviche">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere eum quos amet aspernatur! Quisquam quos
-        similique architecto voluptatibus! Laudantium qui consequatur exercitationem dolor cupiditate! Nobis praesentium
-        nisi eum odit in!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab labore cumque repellendus commodi nobis excepturi
-        ratione hic soluta, pariatur cupiditate officia iusto ad vitae at quia odio nostrum adipisci. Voluptatum tempore
-        quis laborum enim fugiat eveniet.</p>
-    </div>
-    <div class="footer">
-      <div class="footer-items">
+    <article class="posts">
+      <div class="post-title">
+        <h1>Peru</h1>
+        <p class="date">Published: Apr 19, 2019</p>
+      </div>
+      <div class="post-body">
+        <div class="img-container">
+          <figure class="post-img img-left">
+            <img src="/img/machu-picchu.jpg" alt="machu-picchu">
+            <figcaption>Historical Machu Picchu, Peru</figcaption>
+          </figure>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Assumenda, esse soluta autem animi atque est optio
+          accusamus deleniti voluptatum iste vel nulla quod asperiores dicta. Fugiat iusto adipisci reprehenderit minima
+          autem accusantium quasi tenetur enim numquam!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam suscipit mollitia tenetur voluptatem facilis
+          amet. Dolore praesentium optio ullam perspiciatis.</p>
+        <div class="img-container">
+          <figure class="post-img img-right">
+            <img src="/img/coca-tea.jpg" alt="coca-tea">
+            <figcaption>Helps high altitude sickness</figcaption>
+          </figure>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda nihil voluptates, id enim non quaerat
+          necessitatibus ullam consequuntur libero sint unde! Ad animi possimus quis corrupti, quo officiis qui eum
+          neque
+          dolores nesciunt dignissimos veritatis rem. Soluta neque veniam amet culpa. Totam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati consequuntur placeat alias at cum
+          vero
+          modi. Nam corporis libero odio neque temporibus consequuntur, ea architecto explicabo voluptates, sit tenetur
+          dolor ea commodi velit dicta nobis mollitia. Animi recusandae et blanditiis quis quibusdam quos perspiciatis
+          exercitationem odit vitae. Distinctio adipisci eveniet vel ratione facilis nemo vero.</p>
+        <div class="img-container">
+          <figure class="post-img img-left">
+            <img src="/img/ceviche.jpg" alt="ceviche">
+            <figcaption>Ceviche, a must try</figcaption>
+          </figure>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere eum quos amet aspernatur! Quisquam quos
+          similique architecto voluptatibus! Laudantium qui consequatur exercitationem dolor cupiditate! Nobis
+          praesentium
+          nisi eum odit in!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab labore cumque repellendus commodi nobis
+          excepturi
+          ratione hic soluta, pariatur cupiditate officia iusto ad vitae at quia odio nostrum adipisci. Voluptatum
+          tempore
+          quis laborum enim fugiat eveniet.</p>
+      </div>
+      <section class="about">
+        <img src="/img/me_crop.png" class="avatar">
+        <div class="about-summary">
+          <h4>About Danny Cheun</h4>
+          <p>Danny Cheun is a software engineer who loves cooking up python recipes. A perpetual seeker of adventure to
+            quench the thirst of knowledge. He hopes to bolster his front end skills to become a well rounded
+            programmer. Find him on twitter: <a href="https://twitter.com/dflare" target="_blank">@dflare</a></p>
+          <p>>> More blog posts by <a href="/index.html">Danny Cheun</a></p>
+        </div>
+      </section>
+      <footer class="pagination">
+        <ul class="pagination-items">
+          <li class="pagination-item">
+            <a href="#">
+              <button class="btn-pagination disabled" disabled><i class="fa fa-angle-double-left"></i> Back</button>
+            </a>
+          </li>
+          <li class="pagination-item">
+            <a href="/index.html">
+              <button class="btn-pagination">Home</button>
+            </a>
+          </li>
+          <li class="pagination-item">
+            <a href="/pages/post-2.html">
+              <button class="btn-pagination">Next <i class="fa fa-angle-double-right"></i></button>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </article>
+    <footer class="main-footer">
+      <div class="main-footer-items">
         <div class="copyright">© 2020 DSC Media Group</div>
         <div class="social-media">
           <a href="#" class="social-media-icon"><i class="fa fa-facebook fa-lg"></i></a>
@@ -57,7 +108,7 @@
           <a href="#" class="social-media-icon"><i class="fa fa-instagram fa-lg"></i></a>
         </div>
       </div>
-    </div>
+    </footer>
   </div>
 </body>
 
