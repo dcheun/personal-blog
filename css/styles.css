@@ -1,9 +1,9 @@
 /********* Main Sheet *********/
 
-@import '/css/nav.css';
-@import '/css/jumbotron.css';
-@import '/css/post.css';
-@import '/css/footer.css';
+@import '../css/nav.css';
+@import '../css/jumbotron.css';
+@import '../css/post.css';
+@import '../css/footer.css';
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;900&family=Playfair+Display:wght@400;500;800&family=Poppins&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
